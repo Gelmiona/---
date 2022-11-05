@@ -5,7 +5,7 @@ import telebot
 from telebot import types, callback_data  # для указание типов
 logger = telebot.logger
 telebot.logger.setLevel(logging.DEBUG)
-token = '5533151079:AAHBCX_efMb2Kn7IgczPc0IoIX207pFc6HU'  # мой токен
+token =  # мой токен
 bot = telebot.TeleBot(token)
 @bot.message_handler(commands=['start'])  # если ввести команду \start
 def start(message):
